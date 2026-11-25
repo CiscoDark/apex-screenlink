@@ -1,0 +1,54 @@
+PASS Parse multiple USB / wireless devices
+PASS Parse model names
+PASS Unauthorized cannot mirror
+PASS Offline cannot mirror
+PASS USB transport
+PASS Wireless mDNS transport
+PASS Empty device list
+PASS Device disconnection snapshot
+PASS mDNS pairing versus connection ports
+PASS IPv4 endpoint
+PASS IPv6 endpoint
+PASS Bracketed IPv6 endpoint
+PASS Reject port 
+PASS Reject port 0
+PASS Reject port 65536
+PASS Reject port -1
+PASS Reject port port
+PASS Reject port 22;calc
+PASS Reject port 1" & calc
+PASS Reject host hello
+PASS Reject host 192.168.999.1
+PASS Reject host 0.0.0.0
+PASS Reject host 224.0.0.1
+PASS Reject host 192.168.1.2 & calc
+PASS Six digit pairing code
+PASS Reject pairing code length/characters 5
+PASS Reject pairing code length/characters 7
+PASS Reject pairing code length/characters 6
+PASS Reject pairing code length/characters 6
+PASS Reject pairing code length/characters 7
+PASS Default profile validation
+PASS QR Android protocol payload
+PASS QR session entropy and expiry
+PASS QR discovery matches only own pairing service
+PASS QR renderer emits PNG
+PASS Invalid codec rejected
+PASS Invalid crop rejected
+PASS Camera with virtual display rejected
+PASS Recording MP4 args
+PASS Mute / camera / UHID args
+PASS Retry backoff and cap
+PASS Settings atomic save/load and profile roundtrip
+PASS Remember deduplicates endpoints
+PASS Pairing codes are not serialized
+PASS Mock ADB devices process
+PASS Pairing code passed via stdin
+PASS Pairing failure reported
+PASS Unauthorized process failure propagated
+PASS Argument isolation: spaces Unicode quotes and metacharacters
+PASS Binary screenshot pipe preserves bytes
+PASS Timeout kills process
+PASS Dependency tamper detection
+TOTAL 52 passed, 0 failed
+

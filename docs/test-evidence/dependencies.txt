@@ -1,0 +1,17 @@
+PASS x64 PE: ApexScreenLink.exe
+PASS x64 PE: scrcpy.exe
+PASS official ADB x86 helper (runs under Windows x64 WoW64)
+PASS engine hashes
+scrcpy 3.3.4 <https://github.com/Genymobile/scrcpy>
+
+Dependencies (compiled / linked):
+ - SDL: 2.32.8 / 2.32.8
+ - libavcodec: 61.19.101 / 61.19.101
+ - libavformat: 61.7.100 / 61.7.100
+ - libavutil: 59.39.100 / 59.39.100
+ - libusb: - / 1.0.29
+Android Debug Bridge version 1.0.41
+Version 36.0.0-13206524
+Installed as <build-workspace>\design\ApexScreenLink\engine\adb.exe
+Running on Windows 10.0.26300
+

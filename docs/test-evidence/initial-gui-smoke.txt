@@ -1,0 +1,4 @@
+GUI navigation: PASS
+Dependency and ADB initialization: PASS
+Device count: 0
+19:38:13  Bundled dependencies verified. ADB is listening locally on port 5039.

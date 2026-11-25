@@ -1,0 +1,22 @@
+Apex ScreenLink 2.0.0
+Build date: 2026-11-25 (Africa/Lagos)
+Target: Windows 10/11 x64, self-contained .NET 8 WPF
+SDK: 8.0.408 (global.json)
+Runtime: .NET 8.0.15 / Windows Desktop runtime 8.0.15
+scrcpy: v3.3.4, commit fb6381f5b9bb96f3fa823d899f4c32de2ec84ab3
+Upstream Windows x64 archive SHA-256:
+d8a155b7c180b7ca4cdadd40712b8750b63f3aab48cb5b8a2a39ac2d0d4c5d38
+ADB: 36.0.0-13206524 / protocol 1.0.41
+ADB architecture: official x86 helper, running under Windows x64 WoW64
+SDL: 2.32.8
+FFmpeg: 7.1.1 (avcodec 61.19.101, avformat 61.7.100, avutil 59.39.100)
+libusb: 1.0.29
+dav1d: 1.5.0, linked into upstream FFmpeg
+Build type: Release, x64, self-contained, unsigned
+QR generation: QRCoder 1.6.0 source, compiled locally as Apex.QrCodec
+UI revision: streamlined dashboard/navigation/settings, reduced-motion-aware
+page transitions and hover feedback; final runtime QA blocked by App Control.
+Original Apex client compiled locally. Upstream engine/server binaries reused
+unmodified from the official checksum-verified release.
+Engine file checksums: dependency-hashes.json
+Build procedure and source provenance: docs/BUILD.md and docs/ARCHITECTURE.md

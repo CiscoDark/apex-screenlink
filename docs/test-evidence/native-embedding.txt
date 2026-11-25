@@ -1,0 +1,4 @@
+PASS SDL 2.32.8 native window embedded in WPF HwndHost
+PASS child viewport follows host resize
+PASS WM_CLOSE shuts down SDL cleanly
+

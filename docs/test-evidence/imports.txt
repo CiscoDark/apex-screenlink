@@ -1,0 +1,2 @@
+PASS import scan: 473 PE candidates; no unresolved direct imports on this Windows host. API-set imports are provided by Windows. Delay-load and clean-VM behavior require separate testing.
+

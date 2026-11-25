@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net8.0</TargetFramework><AssemblyName>Apex.QrCodec</AssemblyName><EnableDefaultCompileItems>false</EnableDefaultCompileItems><GenerateAssemblyInfo>false</GenerateAssemblyInfo><Nullable>enable</Nullable></PropertyGroup>
+ <ItemGroup><Compile Include="../../third-party/QRCoder-1.6.0/QRCoder/**/*.cs" Exclude="../../third-party/QRCoder-1.6.0/QRCoder/obj/**;../../third-party/QRCoder-1.6.0/QRCoder/bin/**"/></ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+/artifacts/
+.vs/
+*.user
+*.suo
+/data/
+/recordings/
+/screenshots/
+adbkey*
+.env
+.env.*
+third-party/*.zip
+third-party/source/*.zip
+third-party/source/*.tar.gz
+third-party/source/*.tar.xz
